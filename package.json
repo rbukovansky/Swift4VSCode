@@ -1,0 +1,58 @@
+{
+	"name": "swift4vscode",
+	"displayName": "Swift4VSCode",
+	"description": "Swift language support for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "rbukovansky",
+	"engines":
+	{
+		"vscode": "^1.0.0"
+    },
+	"author":
+	{
+		"email": "richard.bukovansky@gmail.com",
+		"name": "Richard Bukovansky",
+		"url": "https://github.com/rbukovansky"
+	},
+	"categories":
+	[
+		"Languages",
+		"Themes"
+    ],
+	"contributes":
+	{
+		"languages":
+		[
+			{
+				"id": "swift",
+				"aliases": ["Swift", "swift"],
+				"extensions": [".swift"],
+				"configuration": "./language-configuration.json"
+        	}
+		],
+		"grammars":
+		[
+			{
+				"language": "swift",
+				"scopeName": "source.swift",
+				"path": "./syntaxes/swift.tmLanguage"
+        	}
+		] 
+    },
+	"license": "See license in LICENSE file",
+	"bugs":
+	{
+        "url": "https://github.com/rbukovansky/Swift4VSCode/issues",
+		"email": "richard.bukovansky@gmail.com"
+    },
+	"homepage": "https://github.com/rbukovansky/Swift4VSCode",
+    "repository":
+	{
+        "type": "git",
+        "url": "https://github.com/rbukovansky/vscode-win16-dark-theme"
+    },
+	"galleryBanner":
+	{
+		"color": "#000000"	
+	}
+}
