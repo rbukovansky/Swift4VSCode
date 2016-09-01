@@ -2,7 +2,7 @@
 
 Swift language support for Visual Studio Code
 
-This is based on work of Matthew Alexander's [Swift-Sublime-Package](https://github.com/quiqueg/Swift-Sublime-Package) and [Swift Language](https://github.com/kasik96/Swift-VS-Code) extension from Martin Kase.
+This is based on work of Matthew Alexander's [Swift-Sublime-Package](https://github.com/quiqueg/Swift-Sublime-Package) and [Swift Language](https://github.com/kasik96/Swift-VS-Code) extension by Martin Kase.
 
 ## **Instalation**
 
